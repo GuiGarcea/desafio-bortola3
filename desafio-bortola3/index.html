@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+    <head>
+        <meta charset="utf-8">
+        <title> Cadastro Cnpj </title>
+        <script type="text/javascript" src="funcoesCNPJ.js">
+        </script>
+    </head>
+    <body>
+        <form>
+            <label for="primeiroNome">
+                Digite o nome da empresa:
+            </label>
+            <input type="text" name="strNome" id="primeiroNome">
+            
+            
+            <label for="idade">
+                Digite quanto tempo a empresa está ativa:
+            </label>
+            <input type="text" name="idadeUsuario" id="idade">
+            
+            <label for="CNPJ">
+                Digite o CNPJ:
+            </label>
+            <input type="text" name="strCNPJ" id="CNPJ"> 
+
+            <label for="email">
+                Digite o seu email:
+            </label>
+            <input type="text" name="Email" id="email">
+
+            <label for="telefone">
+                Digite o telefone:
+            </label>
+            <input type="text" name="Telefone" id="telefone">
+
+            <label for="cep">
+                Digite o cep da empresa:
+            </label>
+            <input type="text" name="Cep" id="cep">
+
+            <label for="rua">
+                Digite o endereço da empresa:
+            </label>
+            <input type="text" name="Rua" id="rua">
+
+            <label for="ruaNumero">
+                Digite o numero do endereço:
+            </label>
+            <input type="text" name="RuaNumero" id="ruaNumero">
+
+            <label for="complemento">
+                Digite o complemento:
+            </label>
+            <input type="text" name="Complemento" id="complemento">
+
+            <label for="bairro">
+                Digite o bairro:
+            </label>
+            <input type="text" name="Bairro" id="bairro">
+
+            <label for="cidade">
+                Digite a cidade:
+            </label>
+            <input type="text" name="Cidade" id="cidade">
+
+            <label for="pais">
+                Digite o pais:
+            </label>
+            <input type="text" name="Pais" id="pais">
+
+            <input type="button" onclick="teste(strNome.value, idadeUsuario.value, strCNPJ.value, Email.value, Telefone.value,
+            Endereco.value, Cep.value, Rua.value, ruaNumero.value,Complemento.value, Bairro.value, Cidade.value, Pais,value)" value="teste"> 
+        </form>
+    </body>
+</html>
